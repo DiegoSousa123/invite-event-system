@@ -1,4 +1,18 @@
+import './globals.css';
 import type { Metadata } from "next";
+import {Montserrat, Oxanium} from "next/font/google";
+
+const montserrat = Montserrat({
+weight: ["500", "600"], 
+subsets: ["latin"],
+variable: "--font-montserrat"
+});
+
+const oxanium = Oxanium({
+  weight: ["400", "600"],
+  subsets: ["latin"],
+  variable: "--font-oxanium"
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -11,8 +25,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body>{children}</body>
+    <html lang="en" className={`${montserrat.variable} ${oxanium.variable} bg-[url('/background.png')] bg-gray-900 bg-no-repeat bg-center-top md:bg-right-top`}>
+      <body className='bg-black text-white'>
+      <main className="max-w-[1240px] m-auto px-5 py-8">
+        {children}
+      </main>
+      </body>
     </html>
   );
 }
