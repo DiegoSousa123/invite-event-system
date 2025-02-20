@@ -5,6 +5,14 @@
 ![](https://private-user-images.githubusercontent.com/34814235/415256690-5620a1c8-48da-4c59-bd46-c2c75cac1a56.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDAwNjcxMDYsIm5iZiI6MTc0MDA2NjgwNiwicGF0aCI6Ii8zNDgxNDIzNS80MTUyNTY2OTAtNTYyMGExYzgtNDhkYS00YzU5LWJkNDYtYzJjNzVjYWMxYTU2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjIwVDE1NTMyNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWI5Yjg2MzVlYTlmMmEyMDFmYjY0M2Q2Yjc0NmQzYTY5ZThlZTA5OTk3MTBjMGVhMTBjMmU5YTllNDhmNjRkNDYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.BVyJ9ZZxO2q0lmyBVEMvs9HGEYIw-KGLQsK1LYaiC1I)
 
 
+### Tecnologias utilizadas:
+- NextJS
+- React
+- Orval
+- Zod
+- TailwindCSS
+- TypeScript
+
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
